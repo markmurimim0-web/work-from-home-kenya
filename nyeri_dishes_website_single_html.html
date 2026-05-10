@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Nyeri Dishes</title>
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:#fff3e6;color:#333;}
+header{
+height:100vh;
+background:url('https://images.unsplash.com/photo-1504674900247-0877df9cc836') center/cover;
+display:flex;align-items:center;justify-content:center;position:relative;
+}
+header::after{content:"";position:absolute;inset:0;background:rgba(0,0,0,0.6);}
+header div{position:relative;text-align:center;color:white;z-index:1;}
+h1{font-size:60px;margin:0;}
+p{font-size:20px;}
+.btn{padding:12px 20px;margin:10px;border:none;border-radius:10px;cursor:pointer;font-weight:bold;}
+.btn-orange{background:#ff7b00;color:white;}
+.btn-white{background:white;color:#ff7b00;}
+section{padding:60px 20px;max-width:1100px;margin:auto;}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;}
+.card{background:#fff;border-radius:15px;overflow:hidden;box-shadow:0 5px 15px rgba(0,0,0,0.1);}
+.card img{width:100%;height:180px;object-fit:cover;}
+.card-content{padding:15px;}
+h2{color:#cc5500;text-align:center;}
+footer{background:#cc5500;color:white;text-align:center;padding:20px;}
+.nav{position:fixed;top:0;width:100%;background:#cc5500;color:white;padding:10px;text-align:center;}
+</style>
+</head>
+<body>
+
+<div class="nav">Nyeri Dishes 🍲</div>
+
+<header>
+  <div>
+    <h1>Nyeri Dishes</h1>
+    <p>Taste the Heart of Nyeri – Authentic Kenyan Food</p>
+    <button class="btn btn-orange">Explore Menu</button>
+    <button class="btn btn-white">Order Now</button>
+  </div>
+</header>
+
+<section>
+  <h2>About Us</h2>
+  <p style="text-align:center;max-width:700px;margin:auto;">
+    Nyeri Dishes brings you authentic Kenyan traditional meals inspired by Nyeri County culture. Fresh, tasty and local.
+  </p>
+</section>
+
+<section>
+  <h2>Popular Dishes</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1547592180-85f173990554" />
+      <div class="card-content">
+        <h3>Mukimo</h3>
+        <p>Mashed potatoes, maize, peas & greens.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba" />
+      <div class="card-content">
+        <h3>Nyama Choma</h3>
+        <p>Roasted meat served with kachumbari.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1619894991209-9f9694be045a" />
+      <div class="card-content">
+        <h3>Chapati</h3>
+        <p>Soft layered Kenyan chapati.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1600891964092-4316c288032e" />
+      <div class="card-content">
+        <h3>Kienyeji Chicken</h3>
+        <p>Traditional free-range chicken.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Why Choose Us</h2>
+  <div class="grid">
+    <div class="card"><div class="card-content"><h3>Authentic Taste</h3><p>Traditional recipes.</p></div></div>
+    <div class="card"><div class="card-content"><h3>Fast Delivery</h3><p>Quick service in Nyeri.</p></div></div>
+    <div class="card"><div class="card-content"><h3>Quality Food</h3><p>Fresh ingredients daily.</p></div></div>
+  </div>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p style="text-align:center;">
+    Nyeri Town, Kenya | +254 700 000 000 | info@nyeridishes.com
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 Nyeri Dishes. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
